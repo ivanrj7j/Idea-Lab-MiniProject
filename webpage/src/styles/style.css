@@ -1,0 +1,73 @@
+body {
+    background-color: #1a001a; /* Dark purple background */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #ff00ff; /* Neon pink */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+select, input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #660066; /* Dark purple border */
+    border-radius: 5px;
+    background-color: rgba(51, 0, 51, 0.7); /* Semi-transparent dark purple */
+    color: #ffffff;
+    backdrop-filter: blur(10px); /* Acrylic blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #660066; /* Dark purple border */
+    border-radius: 5px;
+    background-color: rgba(51, 0, 51, 0.7); /* Semi-transparent dark purple */
+    color: #ffffff;
+    backdrop-filter: blur(10px); /* Acrylic blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    appearance: none; /* Remove default dropdown arrow */
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ff00ff"><path d="M7 10l5 5 5-5z"/></svg>'); /* Custom neon pink arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+select:focus, input:focus {
+    outline: none;
+    border-color: #ff00ff; /* Neon pink border on focus */
+    background-color: rgba(51, 0, 51, 0.9); /* Slightly less transparent on focus */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff00ff; /* Neon pink button */
+    border: none;
+    border-radius: 5px;
+    color: #1a001a; /* Dark purple text */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #cc00cc; /* Slightly darker neon pink on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.invalid-input {
+    color: #ff3399; /* Bright pink for invalid input */
+    margin-top: 10px;
+}
