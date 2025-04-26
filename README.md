@@ -13,6 +13,8 @@ This repository contains two mini projects developed for the Idea Lab during the
 
 ## Project 1: Microcontroller LED Binary Message Display
 
+![Microcontroller](images/micro.png)
+
 This project uses an **ESP32 microcontroller** to display a binary representation of a message using an LED. The LED blinks in a pattern corresponding to the binary encoding of the message.
 
 ### Features
@@ -51,6 +53,8 @@ You can view the simulation here:
 ---
 
 ## Project 2: Number System Converter Web Application
+
+![web app](images/web.png)
 
 This project is a web-based application that allows users to convert numbers between different bases (binary, octal, decimal, hexadecimal). The application features a dark-themed UI with dropdowns for selecting the input and output bases.
 
